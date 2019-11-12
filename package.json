@@ -1,0 +1,16 @@
+{
+    "name": "@simplefocus/prettier-config",
+    "version": "1.0.0",
+    "description": "Simple Focus Prettier config.",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/simplefocus/prettier-config.git"
+    },
+    "author": "Simple Focus (http://simplefocus.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/simplefocus/prettier-config/issues"
+    },
+    "homepage": "https://github.com/simplefocus/prettier-config#readme"
+  }
