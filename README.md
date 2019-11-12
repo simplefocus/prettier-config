@@ -16,6 +16,6 @@ __Update `package.json`:__
 ```jsonc
 {
   // ...
-  "prettier": "@azz/prettier-config"
+  "prettier": "@simplefocus/prettier-config"
 }
 ```
