@@ -13,7 +13,7 @@ $ yarn add --dev @simplefocus/prettier-config
 
 __Update `package.json`:__
 
-```json
+```jsonc
 {
   // ...
   "prettier": "@azz/prettier-config"
