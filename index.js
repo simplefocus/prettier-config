@@ -10,7 +10,7 @@ module.exports = {
     arrowParens: 'avoid',
     printWidth: 80,
     htmlWhitespaceSensitivity: 'css',
-    parser: 'babylon',
+    parser: 'babel',
     proseWrap: 'preserve',
     jsxBracketSameLine: false,
     jsxSingleQuote: false,
