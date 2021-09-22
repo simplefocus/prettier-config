@@ -1,16 +1,24 @@
 {
-    "name": "@simplefocus/prettier-config",
-    "version": "1.0.0",
-    "description": "Simple Focus Prettier config.",
-    "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/simplefocus/prettier-config.git"
-    },
-    "author": "Simple Focus (http://simplefocus.com)",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/simplefocus/prettier-config/issues"
-    },
-    "homepage": "https://github.com/simplefocus/prettier-config#readme"
+  "name": "@simplefocus/prettier-config",
+  "version": "1.0.0",
+  "description": "Simple Focus base prettier configuration.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplefocus/prettier-config.git"
+  },
+  "author": "Simple Focus (http://simplefocus.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplefocus/prettier-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "simplefocus"
+  ],
+  "homepage": "https://github.com/simplefocus/prettier-config#readme",
+  "dependencies": {
+    "prettier": "^2.4.1"
   }
+}

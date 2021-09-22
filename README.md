@@ -1,6 +1,6 @@
 # `@simplefocus/prettier-config`
 
-> Simple Focus Prettier config.
+> Simple Focus base prettier configuration.
 
 
 ## Usage
@@ -19,3 +19,15 @@ __Update `package.json`:__
   "prettier": "@simplefocus/prettier-config"
 }
 ```
+
+
+## Additional Plugins
+
+### Tailwind
+
+- https://github.com/Acidic9/prettier-plugin-tailwind
+
+### Twig
+
+- https://github.com/trivago/prettier-plugin-twig-melody
+- https://github.com/mubaraqwahab/prettier-plugin-twig-enhancements
