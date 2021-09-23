@@ -29,6 +29,27 @@ module.exports = {
 ```
 
 
+## Publishing to npm
+
+Read npm's docs on [How to Update a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages#how-to-update-a-package).
+
+1. Checkout and pull the `main` branch.
+
+2. Run the release script to bump the version numbers (the script will create a commit and push up the release branch to GitHub for you).
+
+    ```shell
+    ./scripts/release
+    ```
+
+    Use [semantic versioning](https://docs.npmjs.com/about-semantic-versioning/) to choose the appropriate version number.
+
+3. Submit and merge a PR from the release branch into `main`.
+
+4. Make sure you're logged into npm from the command line using `npm whoami`. If you're not logged in, `npm login`.
+
+5. `npm publish`
+
+
 ## Additional Plugins
 
 ### Tailwind
