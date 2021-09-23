@@ -17,7 +17,7 @@ __Create `prettier.config.js`:__
 module.exports = require('@simplefocus/prettier-config')
 ```
 
-## Extending/overwriting
+__Extending/overwriting__
 
 > Note: In most cases this shouldn't be necessary.
 
