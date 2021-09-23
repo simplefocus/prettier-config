@@ -38,7 +38,7 @@ Read npm's docs on [How to Update a Package](https://docs.npmjs.com/getting-star
 2. Run the release script to bump the version numbers (the script will create a commit and push up the release branch to GitHub for you).
 
     ```shell
-    ./scripts/release
+    sh ./scripts/release
     ```
 
     Use [semantic versioning](https://docs.npmjs.com/about-semantic-versioning/) to choose the appropriate version number.
