@@ -11,12 +11,20 @@ __Install:__
 $ yarn add --dev @simplefocus/prettier-config
 ```
 
-__Update `package.json`:__
+__Create `prettier.config.js`:__
 
-```jsonc
-{
-  // ...
-  "prettier": "@simplefocus/prettier-config"
+```js
+module.exports = require('@simplefocus/prettier-config')
+```
+
+## Extending/overwriting
+
+> Note: In most cases this shouldn't be necessary.
+
+```js
+module.exports = {
+  ...require('@simplefocus/prettier-config'),
+  tabWidth: 2,
 }
 ```
 
